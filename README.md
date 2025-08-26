@@ -2,7 +2,7 @@ Bring my website to life in your screen here!
 https://dash.generalassemb.ly/pritikavipin/build-your-own-blog-theme
 
 
-<img width="1420" height="848" alt="Screen Shot 2025-08-25 at 5 15 06 PM" src="https://github.com/user-attachments/assets/532da3a8-a630-42a0-91a5-0eb91d72347d" />
+<img width="1420" height="848" alt="Screen Shot 2025-08-25 at 5 17 52 PM" src="https://github.com/user-attachments/assets/f8f43019-2132-400c-a540-0d0a73cb6e7e" />
 
 
 
