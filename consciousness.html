@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<head>
+  <title>Evolution of Consciousness</title>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: black;
+      color: #f5f5f5;
+      font-family: Montserrat;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      position: relative;
+      text-align: center;
+      background: url('https://cdn.mos.cms.futurecdn.net/QJ8shmsq86kGLzAn9oGFrE.jpg') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .header-content {
+      position: relative;
+      z-index: 2;
+      background-color: rgba(0, 0, 0, 0.25);
+      padding: 15px 25px;
+      border-radius: 10px;
+    }
+
+    header h1 {
+      margin: 0 0 10px 0;
+      font-size: 70px;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    }
+
+    header ul {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin: 0;
+      padding: 5px 0 0 0;
+    }
+
+    header li {
+      list-style: none;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    article {
+      max-width: 600px;
+      padding: 20px;
+      margin: 30px auto;
+      background: rgba(30, 30, 30, 0.85);
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+
+    h2 {
+      background: linear-gradient(90deg, #9b59b6, #3498db);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+
+    p {
+      color: #f5f5f5;
+    }
+
+    button {
+      background-color: #f5f5f5;
+      color: black;
+      border: none;
+      padding: 10px 18px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #fff;
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(255,255,255,0.6);
+    }
+
+    img {
+      display: block;
+      max-width: 300px;  
+      width: 100%;
+      margin: 20px auto; 
+      border-radius: 10px;
+    }
+
+    @media (max-width: 500px) {
+      header h1 {
+        font-size: 36px;
+      }
+      header ul {
+        flex-direction: column;
+        gap: 5px;
+      }
+      img {
+        max-width: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>The Evolution of Consciousness</h1>
+      <ul>
+        <li><a href="#">Evolution & Biology</a></li>
+        <li><a href="#">Consciousness & Mind</a></li>
+        <li><a href="#">Philosophy & Reflection</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Articles -->
+  <article>
+    <h2>Introduction</h2>
+    <p>Consciousness has always set complex life apart, shaped by millions of years of evolution to help organisms perceive, respond, and adapt. In humans, it has grown into self-awareness, letting us reflect on our thoughts, imagine the future, and ponder the meaning of existence. And evolution isn’t finished our understanding of consciousness may still be just the beginning of a story that’s still unfolding...</p>
+    <button>What is self-awareness?</button>
+  </article>
+
+  <img src="https://www.soulwatcher.art/wp-content/uploads/2020/11/Soulwatcher-Surrender.jpg" alt="Consciousness">
+
+  <article>
+    <h2>A Philosophical Perspective</h2>
+    <p>"Why should there be a certain way to experience being a human when we are conscious that vanishes in a coma or dreamless sleep and is entirely absent in inanimate objects like chairs or jackets?" says Ralph Adolphs, Bren Professor of Psychology, Neuroscience, and Biology. This contrast underscores a deep mystery. Through art, philosophy, and introspection, humans are exploring states of mind that were never required for mere survival, suggesting a subtle but profound expansion of awareness.</p>
+    <button>The evolution of culture</button>
+  </article>
+
+  <img src="https://apuedge.com/wp-content/uploads/AdobeStock_47258409.jpeg" alt="Philosophy of Mind">
+
+  <article>
+    <h2>Future Consciousness</h2>
+    <p>As we continue to explore consciousness and its roots in evolution, we’re reminded that we are both products and observers of this incredible process. Our self-awareness lets us ask questions that evolution itself never could—about meaning, purpose, and the future. And perhaps that very curiosity is proof that consciousness is still evolving, pushing us toward new ways of understanding ourselves and the world around us.</p>
+    <button>Learn more</button>
+  </article>
+
+  <img src="https://www.watermarkchurch.hk/wp-content/uploads/2022/03/How-are-you-doing-spiritually.jpg" alt="Journey">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $("button").eq(0).on("click", function() {
+      alert("Self-awareness is the ability to recognize and reflect on one’s own thoughts, emotions, and behaviors. It allows individuals to understand their strengths, biases, and motivations, fostering personal growth. By cultivating self-awareness, we gain clarity in decision-making and deepen our connection with the world around us.");
+    });
+
+    $("button").eq(1).on("click", function() {
+      alert("Culture evolves as humans interact, innovate, and share knowledge across generations. Art, language, and social norms reflect the shifting values and collective experiences of societies. By studying cultural evolution, we can understand how ideas, beliefs, and behaviors adapt over time.");
+    });
+
+    $("button").eq(2).on("click", function() {
+      alert("Future consciousness explores how awareness might expand beyond current cognitive limits. It considers the role of technology, collective intelligence, and ethical development in shaping human perception. Imagining future consciousness helps us prepare for new ways of thinking, relating, and creating in a rapidly changing world.");
+    });
+  </script>
+</body>
+</html>
+
